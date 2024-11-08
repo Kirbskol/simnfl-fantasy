@@ -2,7 +2,7 @@ import React from 'react'
 import Form from './ui/Form.jsx'
 import Splash from './ui/Splash.jsx'
 
-const Intro = () => {
+const Home = () => {
   return (
     <>
         <Splash />
@@ -11,4 +11,4 @@ const Intro = () => {
   )
 }
 
-export default Intro;
+export default Home;

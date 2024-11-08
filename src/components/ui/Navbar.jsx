@@ -1,7 +1,7 @@
 import React from 'react'
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import logo from '../assets/logo.png'
+import logo from '../../assets/logo.png'
 
 const navigation = [
   { name: 'Fantasy Draft', href: '/', current: true },
@@ -14,7 +14,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Header() {
+export default function Navbar() {
   return (
     <Disclosure as="nav" className="bg-slate-900">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

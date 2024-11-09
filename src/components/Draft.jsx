@@ -1,16 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react'
 
 const Draft = ({ userName }) => {
-  return (
-    <div class="flex-col p-8 items-center text-center">
-        <div class="text-center w-1/2 justify-self-center">
-            <h1 class="text-4xl self-center font-bold mb-2">Coach {userName}</h1>
-            <p class="text-lg text-wrap">You will now select your SimNFL fantasy players.</p>
-        </div>
-      
-      {/* Add draft logic here */}
-    </div>
-  );
-};
+  const [players, setPlayers] = useState([])
+  const [selectedPlayer, setSelectedPlayer] = useState(null)
+  const [position, setPosition] = useState('qb')
+  const [selectedPlayers, setSelectedPlayers] = useState([])
+  const [wrCount, setWrCount] = useState(0)
+  const [olCount, setOlCount] = useState(0)
+  const isFetching = useRef(false)
 
-export default Draft;
+  const manualPositionQueue = [
+    'qb', 'rb', 'te', 'wr', 'wr', 'wr', 
+    'ol', 'ol', 'ol', 'ol', 'ol', 'k', 'def'
+  ]
+  const manualPositionIndex = useRef(0)

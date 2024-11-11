@@ -19,8 +19,11 @@ const Draft = () => {
         if (isFetching.current) return
             isFetching.current = true
         try {
-            const playerResponse = await fetch('./')
-            const iconResponse = await fetch('./')
+            const playerResponse = await fetch('{position}.json')
+            const iconResponse = await fetch('positionIcons.json')
+            const playerData =  await playerResponse.json()
+            const iconData = await iconResponse.json()
+
         }
     }
 

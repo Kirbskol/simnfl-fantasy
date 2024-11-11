@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
 const Form = ({ onStartDraft }) => {
-  const [name, setName] = useState('');
+  const [name, setName] = useState('')
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -30,7 +30,7 @@ const Form = ({ onStartDraft }) => {
         </form>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Form;
+export default Form

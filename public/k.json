@@ -1,7 +1,7 @@
 {
     "k": [
         {
-            "ID": 1,
+            "ID": 605,
             "TEAM": "Dolphins",
             "FIRSTNAME": "David",
             "LASTNAME": "Genter",
@@ -9,10 +9,11 @@
             "ARCH": "Balanced",
             "EXP": 10,
             "OVR": 89,
-            "LOGO": "Dolphins.png"
+            "LOGO": "Dolphins.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 2,
+            "ID": 606,
             "TEAM": "Commanders",
             "FIRSTNAME": "Jeffrey",
             "LASTNAME": "Leon",
@@ -20,10 +21,11 @@
             "ARCH": "Accuracy",
             "EXP": 9,
             "OVR": 87,
-            "LOGO": "Commanders.png"
+            "LOGO": "Commanders.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 3,
+            "ID": 607,
             "TEAM": "Chiefs",
             "FIRSTNAME": "Rob",
             "LASTNAME": "Downing",
@@ -31,10 +33,11 @@
             "ARCH": "Balanced",
             "EXP": 9,
             "OVR": 85,
-            "LOGO": "Chiefs.png"
+            "LOGO": "Chiefs.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 4,
+            "ID": 608,
             "TEAM": "Cowboys",
             "FIRSTNAME": "Michael",
             "LASTNAME": "Cox",
@@ -42,10 +45,11 @@
             "ARCH": "Accuracy",
             "EXP": 5,
             "OVR": 84,
-            "LOGO": "Cowboys.png"
+            "LOGO": "Cowboys.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 5,
+            "ID": 609,
             "TEAM": "Packers",
             "FIRSTNAME": "Paul",
             "LASTNAME": "Tompkins",
@@ -53,10 +57,11 @@
             "ARCH": "Power",
             "EXP": 6,
             "OVR": 75,
-            "LOGO": "Packers.png"
+            "LOGO": "Packers.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 6,
+            "ID": 610,
             "TEAM": "Raiders",
             "FIRSTNAME": "Alan",
             "LASTNAME": "Rutherford",
@@ -64,10 +69,11 @@
             "ARCH": "Balanced",
             "EXP": 5,
             "OVR": 75,
-            "LOGO": "Raiders.png"
+            "LOGO": "Raiders.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 7,
+            "ID": 611,
             "TEAM": "Eagles",
             "FIRSTNAME": "John",
             "LASTNAME": "Raigoza",
@@ -75,10 +81,11 @@
             "ARCH": "Accuracy",
             "EXP": 12,
             "OVR": 75,
-            "LOGO": "Eagles.png"
+            "LOGO": "Eagles.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 8,
+            "ID": 612,
             "TEAM": "Steelers",
             "FIRSTNAME": "Hector",
             "LASTNAME": "Gonzalez",
@@ -86,10 +93,11 @@
             "ARCH": "Power",
             "EXP": 7,
             "OVR": 74,
-            "LOGO": "Steelers.png"
+            "LOGO": "Steelers.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 9,
+            "ID": 613,
             "TEAM": "Rams",
             "FIRSTNAME": "Ramon",
             "LASTNAME": "Veloz",
@@ -97,10 +105,11 @@
             "ARCH": "Balanced",
             "EXP": 7,
             "OVR": 73,
-            "LOGO": "Rams.png"
+            "LOGO": "Rams.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 10,
+            "ID": 614,
             "TEAM": "Lions",
             "FIRSTNAME": "Xin",
             "LASTNAME": "Nevin",
@@ -108,10 +117,11 @@
             "ARCH": "Power",
             "EXP": 7,
             "OVR": 71,
-            "LOGO": "Lions.png"
+            "LOGO": "Lions.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 11,
+            "ID": 615,
             "TEAM": "Panthers",
             "FIRSTNAME": "Michael",
             "LASTNAME": "Rogers",
@@ -119,10 +129,11 @@
             "ARCH": "Accuracy",
             "EXP": 5,
             "OVR": 70,
-            "LOGO": "Panthers.png"
+            "LOGO": "Panthers.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 12,
+            "ID": 616,
             "TEAM": "Browns",
             "FIRSTNAME": "Abel",
             "LASTNAME": "Chapa",
@@ -130,10 +141,11 @@
             "ARCH": "Power",
             "EXP": 6,
             "OVR": 70,
-            "LOGO": "Browns.png"
+            "LOGO": "Browns.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 13,
+            "ID": 617,
             "TEAM": "Texans",
             "FIRSTNAME": "Antonio",
             "LASTNAME": "Frank",
@@ -141,10 +153,11 @@
             "ARCH": "Power",
             "EXP": 7,
             "OVR": 70,
-            "LOGO": "Texans.png"
+            "LOGO": "Texans.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 14,
+            "ID": 618,
             "TEAM": "Falcons",
             "FIRSTNAME": "Herman",
             "LASTNAME": "Vanderhorst",
@@ -152,10 +165,11 @@
             "ARCH": "Accuracy",
             "EXP": 5,
             "OVR": 69,
-            "LOGO": "Falcons.png"
+            "LOGO": "Falcons.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 15,
+            "ID": 619,
             "TEAM": "Colts",
             "FIRSTNAME": "Glenn",
             "LASTNAME": "Brandt",
@@ -163,10 +177,11 @@
             "ARCH": "Accuracy",
             "EXP": 7,
             "OVR": 69,
-            "LOGO": "Colts.png"
+            "LOGO": "Colts.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 16,
+            "ID": 620,
             "TEAM": "Jaguars",
             "FIRSTNAME": "Benjamin",
             "LASTNAME": "Ray",
@@ -174,10 +189,11 @@
             "ARCH": "Power",
             "EXP": 6,
             "OVR": 68,
-            "LOGO": "Jaguars.png"
+            "LOGO": "Jaguars.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 17,
+            "ID": 621,
             "TEAM": "49ers",
             "FIRSTNAME": "Juan",
             "LASTNAME": "Bishop",
@@ -185,10 +201,11 @@
             "ARCH": "Accuracy",
             "EXP": 6,
             "OVR": 68,
-            "LOGO": "49ers.png"
+            "LOGO": "49ers.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 18,
+            "ID": 622,
             "TEAM": "Seahawks",
             "FIRSTNAME": "Matthew",
             "LASTNAME": "Walker",
@@ -196,10 +213,11 @@
             "ARCH": "Accuracy",
             "EXP": 8,
             "OVR": 68,
-            "LOGO": "Seahawks.png"
+            "LOGO": "Seahawks.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 19,
+            "ID": 623,
             "TEAM": "Titans",
             "FIRSTNAME": "Richard",
             "LASTNAME": "Yob",
@@ -207,10 +225,11 @@
             "ARCH": "Balanced",
             "EXP": 8,
             "OVR": 67,
-            "LOGO": "Titans.png"
+            "LOGO": "Titans.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 20,
+            "ID": 624,
             "TEAM": "Bills",
             "FIRSTNAME": "John",
             "LASTNAME": "Hollis-Jefferson",
@@ -218,10 +237,11 @@
             "ARCH": "Power",
             "EXP": 4,
             "OVR": 65,
-            "LOGO": "Bills.png"
+            "LOGO": "Bills.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 21,
+            "ID": 625,
             "TEAM": "Broncos",
             "FIRSTNAME": "Elih",
             "LASTNAME": "Obada",
@@ -229,10 +249,11 @@
             "ARCH": "Accuracy",
             "EXP": 3,
             "OVR": 65,
-            "LOGO": "Broncos.png"
+            "LOGO": "Broncos.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 22,
+            "ID": 626,
             "TEAM": "Raiders",
             "FIRSTNAME": "Robin",
             "LASTNAME": "Reynolds",
@@ -240,10 +261,11 @@
             "ARCH": "Power",
             "EXP": 4,
             "OVR": 65,
-            "LOGO": "Raiders.png"
+            "LOGO": "Raiders.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 23,
+            "ID": 627,
             "TEAM": "Jets",
             "FIRSTNAME": "Ronald",
             "LASTNAME": "Baker",
@@ -251,10 +273,11 @@
             "ARCH": "Accuracy",
             "EXP": 2,
             "OVR": 65,
-            "LOGO": "Jets.png"
+            "LOGO": "Jets.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 24,
+            "ID": 628,
             "TEAM": "Buccaneers",
             "FIRSTNAME": "Ike",
             "LASTNAME": "Tauchman",
@@ -262,10 +285,11 @@
             "ARCH": "Balanced",
             "EXP": 2,
             "OVR": 61,
-            "LOGO": "Buccaneers.png"
+            "LOGO": "Buccaneers.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 25,
+            "ID": 629,
             "TEAM": "Bears",
             "FIRSTNAME": "Josh",
             "LASTNAME": "Nelson",
@@ -273,10 +297,11 @@
             "ARCH": "Power",
             "EXP": 3,
             "OVR": 60,
-            "LOGO": "Bears.png"
+            "LOGO": "Bears.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 26,
+            "ID": 630,
             "TEAM": "Patriots",
             "FIRSTNAME": "Ben",
             "LASTNAME": "Frare",
@@ -284,10 +309,11 @@
             "ARCH": "Accuracy",
             "EXP": 2,
             "OVR": 59,
-            "LOGO": "Patriots.png"
+            "LOGO": "Patriots.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 27,
+            "ID": 631,
             "TEAM": "Giants",
             "FIRSTNAME": "Luis",
             "LASTNAME": "Terdoslavich",
@@ -295,10 +321,11 @@
             "ARCH": "Power",
             "EXP": 2,
             "OVR": 57,
-            "LOGO": "Giants.png"
+            "LOGO": "Giants.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 28,
+            "ID": 632,
             "TEAM": "Vikings",
             "FIRSTNAME": "Mike",
             "LASTNAME": "Tsao",
@@ -306,10 +333,11 @@
             "ARCH": "Accuracy",
             "EXP": 2,
             "OVR": 56,
-            "LOGO": "Vikings.png"
+            "LOGO": "Vikings.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 29,
+            "ID": 633,
             "TEAM": "Giants",
             "FIRSTNAME": "Jason",
             "LASTNAME": "Contreras",
@@ -317,10 +345,11 @@
             "ARCH": "Accuracy",
             "EXP": 2,
             "OVR": 53,
-            "LOGO": "Giants.png"
+            "LOGO": "Giants.png",
+            "POSIMG": "K.png"
         },
         {
-            "ID": 30,
+            "ID": 634,
             "TEAM": "Cardinals",
             "FIRSTNAME": "Ryan",
             "LASTNAME": "McBride",
@@ -328,7 +357,8 @@
             "ARCH": "Accuracy",
             "EXP": 2,
             "OVR": 51,
-            "LOGO": "Cardinals.png"
+            "LOGO": "Cardinals.png",
+            "POSIMG": "K.png"
         }
     ]
 }

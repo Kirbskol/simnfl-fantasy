@@ -23,7 +23,7 @@ const Draft = () => {
             const iconResponse = await fetch('positionIcons.json')
             const playerData =  await playerResponse.json()
             const iconData = await iconResponse.json()
-
+            
         }
     }
 

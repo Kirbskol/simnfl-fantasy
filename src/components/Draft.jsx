@@ -18,7 +18,12 @@ const Draft = () => {
     const fetchPlayers = async () => {
         if (isFetching.current) return
             isFetching.current = true
+        try {
+            const playerResponse = await fetch('./')
+            const iconResponse = await fetch('./')
+        }
     }
+
 
 }
 

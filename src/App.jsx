@@ -1,7 +1,7 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home.jsx';
-import Draft from './components/Draft.jsx';
+import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Home from './components/Home.jsx'
+import Draft from './components/Draft.jsx'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Route path="/draft" element={<Draft />} />
       </Routes>
     </Router>
-  );
+  )
 }
 
 export default App;

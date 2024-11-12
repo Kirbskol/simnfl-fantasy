@@ -31,6 +31,9 @@ const Draft = () => {
             const selectablePlayers = filteredPlayers.sort(() => 0.5 - Math.random()).slice(0, 3)
             setPlayers(selectablePlayers)
             isFetching.current = false
+        } catch(error) {
+            console.error("Error when fetching players", error)
+            isFetching.current = false
         }
     }
 

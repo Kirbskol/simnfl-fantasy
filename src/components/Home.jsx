@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import Splash from './ui/Splash.jsx';
-import Form from './ui/Form.jsx';
-import Draft from './Draft.jsx';
+import React, { useState } from 'react'
+import Splash from './ui/Splash.jsx'
+import Form from './ui/Form.jsx'
+import Draft from './Draft.jsx'
 
 const Home = () => {
   const [isDraftStarted, setIsDraftStarted] = useState(false)
@@ -26,4 +26,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Home

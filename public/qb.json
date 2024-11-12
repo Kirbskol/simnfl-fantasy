@@ -9,7 +9,8 @@
             "ARCH": "Balanced",
             "EXP": 9,
             "OVR": 87,
-            "LOGO": "Ravens.png"
+            "LOGO": "Ravens.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 2,
@@ -20,7 +21,8 @@
             "ARCH": "Pocket",
             "EXP": 8,
             "OVR": 86,
-            "LOGO": "Dolphins.png"
+            "LOGO": "Dolphins.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 3,
@@ -31,7 +33,8 @@
             "ARCH": "Field General",
             "EXP": 7,
             "OVR": 85,
-            "LOGO": "Broncos.png"
+            "LOGO": "Broncos.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 4,
@@ -42,7 +45,8 @@
             "ARCH": "Balanced",
             "EXP": 10,
             "OVR": 84,
-            "LOGO": "Cowboys.png"
+            "LOGO": "Cowboys.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 5,
@@ -53,7 +57,8 @@
             "ARCH": "Scrambler",
             "EXP": 7,
             "OVR": 84,
-            "LOGO": "Chargers.png"
+            "LOGO": "Chargers.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 6,
@@ -64,7 +69,8 @@
             "ARCH": "Field General",
             "EXP": 7,
             "OVR": 83,
-            "LOGO": "Packers.png"
+            "LOGO": "Packers.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 7,
@@ -75,7 +81,8 @@
             "ARCH": "Pocket",
             "EXP": 9,
             "OVR": 82,
-            "LOGO": "Bears.png"
+            "LOGO": "Bears.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 8,
@@ -86,7 +93,8 @@
             "ARCH": "Balanced",
             "EXP": 11,
             "OVR": 80,
-            "LOGO": "Falcons.png"
+            "LOGO": "Falcons.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 9,
@@ -97,7 +105,8 @@
             "ARCH": "Scrambler",
             "EXP": 8,
             "OVR": 80,
-            "LOGO": "Steelers.png"
+            "LOGO": "Steelers.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 10,
@@ -108,7 +117,8 @@
             "ARCH": "Field General",
             "EXP": 10,
             "OVR": 79,
-            "LOGO": "Browns.png"
+            "LOGO": "Browns.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 11,
@@ -119,7 +129,8 @@
             "ARCH": "Pocket",
             "EXP": 5,
             "OVR": 79,
-            "LOGO": "Vikings.png"
+            "LOGO": "Vikings.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 12,
@@ -130,7 +141,8 @@
             "ARCH": "Pocket",
             "EXP": 12,
             "OVR": 78,
-            "LOGO": "Cardinals.png"
+            "LOGO": "Cardinals.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 13,
@@ -141,7 +153,8 @@
             "ARCH": "Pocket",
             "EXP": 10,
             "OVR": 78,
-            "LOGO": "Raiders.png"
+            "LOGO": "Raiders.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 14,
@@ -152,7 +165,8 @@
             "ARCH": "Pocket",
             "EXP": 11,
             "OVR": 78,
-            "LOGO": "Rams.png"
+            "LOGO": "Rams.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 15,
@@ -163,7 +177,8 @@
             "ARCH": "Scrambler",
             "EXP": 11,
             "OVR": 77,
-            "LOGO": "Eagles.png"
+            "LOGO": "Eagles.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 16,
@@ -174,7 +189,8 @@
             "ARCH": "Scrambler",
             "EXP": 13,
             "OVR": 76,
-            "LOGO": "Colts.png"
+            "LOGO": "Colts.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 17,
@@ -185,7 +201,8 @@
             "ARCH": "Scrambler",
             "EXP": 9,
             "OVR": 76,
-            "LOGO": "Giants.png"
+            "LOGO": "Giants.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 18,
@@ -196,7 +213,8 @@
             "ARCH": "Scrambler",
             "EXP": 6,
             "OVR": 76,
-            "LOGO": "Buccaneers.png"
+            "LOGO": "Buccaneers.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 19,
@@ -207,7 +225,8 @@
             "ARCH": "Pocket",
             "EXP": 5,
             "OVR": 76,
-            "LOGO": "Commanders.png"
+            "LOGO": "Commanders.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 20,
@@ -218,7 +237,8 @@
             "ARCH": "Field General",
             "EXP": 5,
             "OVR": 75,
-            "LOGO": "Lions.png"
+            "LOGO": "Lions.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 21,
@@ -229,7 +249,8 @@
             "ARCH": "Pocket",
             "EXP": 4,
             "OVR": 74,
-            "LOGO": "Panthers.png"
+            "LOGO": "Panthers.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 22,
@@ -240,7 +261,8 @@
             "ARCH": "Field General",
             "EXP": 6,
             "OVR": 74,
-            "LOGO": "Jets.png"
+            "LOGO": "Jets.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 23,
@@ -251,7 +273,8 @@
             "ARCH": "Field General",
             "EXP": 6,
             "OVR": 74,
-            "LOGO": "Titans.png"
+            "LOGO": "Titans.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 24,
@@ -262,7 +285,8 @@
             "ARCH": "Field General",
             "EXP": 7,
             "OVR": 72,
-            "LOGO": "Cowboys.png"
+            "LOGO": "Cowboys.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 25,
@@ -273,7 +297,8 @@
             "ARCH": "Pocket",
             "EXP": 4,
             "OVR": 71,
-            "LOGO": "Bills.png"
+            "LOGO": "Bills.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 26,
@@ -284,7 +309,8 @@
             "ARCH": "Balanced",
             "EXP": 4,
             "OVR": 70,
-            "LOGO": "Vikings.png"
+            "LOGO": "Vikings.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 27,
@@ -295,7 +321,8 @@
             "ARCH": "Pocket",
             "EXP": 4,
             "OVR": 70,
-            "LOGO": "Patriots.png"
+            "LOGO": "Patriots.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 28,
@@ -306,7 +333,8 @@
             "ARCH": "Balanced",
             "EXP": 6,
             "OVR": 68,
-            "LOGO": "Browns.png"
+            "LOGO": "Browns.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 29,
@@ -317,7 +345,8 @@
             "ARCH": "Scrambler",
             "EXP": 6,
             "OVR": 68,
-            "LOGO": "Chargers.png"
+            "LOGO": "Chargers.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 30,
@@ -328,7 +357,8 @@
             "ARCH": "Pocket",
             "EXP": 6,
             "OVR": 68,
-            "LOGO": "Rams.png"
+            "LOGO": "Rams.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 31,
@@ -339,7 +369,8 @@
             "ARCH": "Scrambler",
             "EXP": 4,
             "OVR": 68,
-            "LOGO": "Jets.png"
+            "LOGO": "Jets.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 32,
@@ -350,7 +381,8 @@
             "ARCH": "Scrambler",
             "EXP": 4,
             "OVR": 67,
-            "LOGO": "Lions.png"
+            "LOGO": "Lions.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 33,
@@ -361,7 +393,8 @@
             "ARCH": "Scrambler",
             "EXP": 5,
             "OVR": 67,
-            "LOGO": "Colts.png"
+            "LOGO": "Colts.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 34,
@@ -372,7 +405,8 @@
             "ARCH": "Pocket",
             "EXP": 4,
             "OVR": 67,
-            "LOGO": "Jaguars.png"
+            "LOGO": "Jaguars.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 35,
@@ -383,7 +417,8 @@
             "ARCH": "Field General",
             "EXP": 13,
             "OVR": 67,
-            "LOGO": "Jaguars.png"
+            "LOGO": "Jaguars.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 36,
@@ -394,7 +429,8 @@
             "ARCH": "Scrambler",
             "EXP": 6,
             "OVR": 67,
-            "LOGO": "Patriots.png"
+            "LOGO": "Patriots.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 37,
@@ -405,7 +441,8 @@
             "ARCH": "Scrambler",
             "EXP": 3,
             "OVR": 67,
-            "LOGO": "Giants.png"
+            "LOGO": "Giants.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 38,
@@ -416,7 +453,8 @@
             "ARCH": "Pocket",
             "EXP": 5,
             "OVR": 66,
-            "LOGO": "Broncos.png"
+            "LOGO": "Broncos.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 39,
@@ -427,7 +465,8 @@
             "ARCH": "Field General",
             "EXP": 4,
             "OVR": 66,
-            "LOGO": "Packers.png"
+            "LOGO": "Packers.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 40,
@@ -438,7 +477,8 @@
             "ARCH": "Field General",
             "EXP": 6,
             "OVR": 66,
-            "LOGO": "Chiefs.png"
+            "LOGO": "Chiefs.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 41,
@@ -449,7 +489,8 @@
             "ARCH": "Balanced",
             "EXP": 5,
             "OVR": 66,
-            "LOGO": "Chiefs.png"
+            "LOGO": "Chiefs.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 42,
@@ -460,7 +501,8 @@
             "ARCH": "Pocket",
             "EXP": 5,
             "OVR": 66,
-            "LOGO": "Raiders.png"
+            "LOGO": "Raiders.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 43,
@@ -471,7 +513,8 @@
             "ARCH": "Scrambler",
             "EXP": 3,
             "OVR": 66,
-            "LOGO": "Steelers.png"
+            "LOGO": "Steelers.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 44,
@@ -482,7 +525,8 @@
             "ARCH": "Pocket",
             "EXP": 3,
             "OVR": 66,
-            "LOGO": "Seahawks.png"
+            "LOGO": "Seahawks.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 45,
@@ -493,7 +537,8 @@
             "ARCH": "Pocket",
             "EXP": 7,
             "OVR": 66,
-            "LOGO": "Titans.png"
+            "LOGO": "Titans.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 46,
@@ -504,7 +549,8 @@
             "ARCH": "Pocket",
             "EXP": 7,
             "OVR": 66,
-            "LOGO": "Commanders.png"
+            "LOGO": "Commanders.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 47,
@@ -515,7 +561,8 @@
             "ARCH": "Pocket",
             "EXP": 5,
             "OVR": 66,
-            "LOGO": "Commanders.png"
+            "LOGO": "Commanders.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 48,
@@ -526,7 +573,8 @@
             "ARCH": "Scrambler",
             "EXP": 2,
             "OVR": 65,
-            "LOGO": "Texans.png"
+            "LOGO": "Texans.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 49,
@@ -537,7 +585,8 @@
             "ARCH": "Pocket",
             "EXP": 5,
             "OVR": 65,
-            "LOGO": "Raiders.png"
+            "LOGO": "Raiders.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 50,
@@ -548,7 +597,8 @@
             "ARCH": "Pocket",
             "EXP": 6,
             "OVR": 65,
-            "LOGO": "Patriots.png"
+            "LOGO": "Patriots.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 51,
@@ -559,7 +609,8 @@
             "ARCH": "Balanced",
             "EXP": 4,
             "OVR": 64,
-            "LOGO": "Cardinals.png"
+            "LOGO": "Cardinals.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 52,
@@ -570,7 +621,8 @@
             "ARCH": "Pocket",
             "EXP": 4,
             "OVR": 64,
-            "LOGO": "49ers.png"
+            "LOGO": "49ers.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 53,
@@ -581,7 +633,8 @@
             "ARCH": "Pocket",
             "EXP": 3,
             "OVR": 63,
-            "LOGO": "Saints.png"
+            "LOGO": "Saints.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 54,
@@ -592,7 +645,8 @@
             "ARCH": "Scrambler",
             "EXP": 3,
             "OVR": 62,
-            "LOGO": "Cowboys.png"
+            "LOGO": "Cowboys.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 55,
@@ -603,7 +657,8 @@
             "ARCH": "Pocket",
             "EXP": 3,
             "OVR": 62,
-            "LOGO": "Chiefs.png"
+            "LOGO": "Chiefs.png",
+            "ICON": "QB.png"
         },
         {
             "ID": 56,
@@ -614,7 +669,8 @@
             "ARCH": "Balanced",
             "EXP": 2,
             "OVR": 60,
-            "LOGO": "49ers.png"
+            "LOGO": "49ers.png",
+            "ICON": "QB.png"
         }
     ]
 }

@@ -6,7 +6,7 @@
             "POS": "DEF",
             "OVR": 91,
             "LOGO": "Commanders.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 636,
@@ -14,7 +14,7 @@
             "POS": "DEF",
             "OVR": 90,
             "LOGO": "Broncos.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 637,
@@ -22,7 +22,7 @@
             "POS": "DEF",
             "OVR": 87,
             "LOGO": "Steelers.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 638,
@@ -30,7 +30,7 @@
             "POS": "DEF",
             "OVR": 86,
             "LOGO": "Rams.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 639,
@@ -38,7 +38,7 @@
             "POS": "DEF",
             "OVR": 85,
             "LOGO": "Cowboys.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 640,
@@ -46,7 +46,7 @@
             "POS": "DEF",
             "OVR": 85,
             "LOGO": "Dolphins.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 641,
@@ -54,7 +54,7 @@
             "POS": "DEF",
             "OVR": 85,
             "LOGO": "Falcons.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 642,
@@ -62,7 +62,7 @@
             "POS": "DEF",
             "OVR": 85,
             "LOGO": "Ravens.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 643,
@@ -70,7 +70,7 @@
             "POS": "DEF",
             "OVR": 84,
             "LOGO": "Browns.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 644,
@@ -78,7 +78,7 @@
             "POS": "DEF",
             "OVR": 84,
             "LOGO": "Eagles.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 645,
@@ -86,7 +86,7 @@
             "POS": "DEF",
             "OVR": 84,
             "LOGO": "Seahawks.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 646,
@@ -94,7 +94,7 @@
             "POS": "DEF",
             "OVR": 83,
             "LOGO": "Chargers.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 647,
@@ -102,7 +102,7 @@
             "POS": "DEF",
             "OVR": 83,
             "LOGO": "Bills.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 648,
@@ -110,7 +110,7 @@
             "POS": "DEF",
             "OVR": 83,
             "LOGO": "Raiders.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 649,
@@ -118,7 +118,7 @@
             "POS": "DEF",
             "OVR": 83,
             "LOGO": "Panthers.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 650,
@@ -126,7 +126,7 @@
             "POS": "DEF",
             "OVR": 82,
             "LOGO": "Vikings.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 651,
@@ -134,7 +134,7 @@
             "POS": "DEF",
             "OVR": 82,
             "LOGO": "Titans.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 652,
@@ -142,7 +142,7 @@
             "POS": "DEF",
             "OVR": 82,
             "LOGO": "Jaguars.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 653,
@@ -150,7 +150,7 @@
             "POS": "DEF",
             "OVR": 82,
             "LOGO": "Chiefs.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 654,
@@ -158,7 +158,7 @@
             "POS": "DEF",
             "OVR": 82,
             "LOGO": "Bears.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 655,
@@ -166,7 +166,7 @@
             "POS": "DEF",
             "OVR": 82,
             "LOGO": "Patriots.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 656,
@@ -174,7 +174,7 @@
             "POS": "DEF",
             "OVR": 82,
             "LOGO": "Bengals.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 657,
@@ -182,7 +182,7 @@
             "POS": "DEF",
             "OVR": 82,
             "LOGO": "Packers.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 658,
@@ -190,7 +190,7 @@
             "POS": "DEF",
             "OVR": 82,
             "LOGO": "Giants.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 659,
@@ -198,7 +198,7 @@
             "POS": "DEF",
             "OVR": 81,
             "LOGO": "Buccaneers.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 660,
@@ -206,7 +206,7 @@
             "POS": "DEF",
             "OVR": 81,
             "LOGO": "Lions.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 661,
@@ -214,7 +214,7 @@
             "POS": "DEF",
             "OVR": 81,
             "LOGO": "Jets.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 662,
@@ -222,7 +222,7 @@
             "POS": "DEF",
             "OVR": 80,
             "LOGO": "Saints.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 663,
@@ -230,7 +230,7 @@
             "POS": "DEF",
             "OVR": 80,
             "LOGO": "Colts.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 664,
@@ -238,7 +238,7 @@
             "POS": "DEF",
             "OVR": 79,
             "LOGO": "49ers.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 665,
@@ -246,7 +246,7 @@
             "POS": "DEF",
             "OVR": 76,
             "LOGO": "Cardinals.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         },
         {
             "ID": 666,
@@ -254,7 +254,7 @@
             "POS": "DEF",
             "OVR": 75,
             "LOGO": "Texans.png",
-            "POSIMG": "DEF.png"
+            "ICON": "DEF.png"
         }
     ]
 }

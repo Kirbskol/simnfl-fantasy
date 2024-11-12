@@ -10,7 +10,7 @@
             "EXP": 10,
             "OVR": 89,
             "LOGO": "Dolphins.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 606,
@@ -22,7 +22,7 @@
             "EXP": 9,
             "OVR": 87,
             "LOGO": "Commanders.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 607,
@@ -34,7 +34,7 @@
             "EXP": 9,
             "OVR": 85,
             "LOGO": "Chiefs.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 608,
@@ -46,7 +46,7 @@
             "EXP": 5,
             "OVR": 84,
             "LOGO": "Cowboys.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 609,
@@ -58,7 +58,7 @@
             "EXP": 6,
             "OVR": 75,
             "LOGO": "Packers.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 610,
@@ -70,7 +70,7 @@
             "EXP": 5,
             "OVR": 75,
             "LOGO": "Raiders.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 611,
@@ -82,7 +82,7 @@
             "EXP": 12,
             "OVR": 75,
             "LOGO": "Eagles.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 612,
@@ -94,7 +94,7 @@
             "EXP": 7,
             "OVR": 74,
             "LOGO": "Steelers.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 613,
@@ -106,7 +106,7 @@
             "EXP": 7,
             "OVR": 73,
             "LOGO": "Rams.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 614,
@@ -118,7 +118,7 @@
             "EXP": 7,
             "OVR": 71,
             "LOGO": "Lions.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 615,
@@ -130,7 +130,7 @@
             "EXP": 5,
             "OVR": 70,
             "LOGO": "Panthers.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 616,
@@ -142,7 +142,7 @@
             "EXP": 6,
             "OVR": 70,
             "LOGO": "Browns.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 617,
@@ -154,7 +154,7 @@
             "EXP": 7,
             "OVR": 70,
             "LOGO": "Texans.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 618,
@@ -166,7 +166,7 @@
             "EXP": 5,
             "OVR": 69,
             "LOGO": "Falcons.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 619,
@@ -178,7 +178,7 @@
             "EXP": 7,
             "OVR": 69,
             "LOGO": "Colts.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 620,
@@ -190,7 +190,7 @@
             "EXP": 6,
             "OVR": 68,
             "LOGO": "Jaguars.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 621,
@@ -202,7 +202,7 @@
             "EXP": 6,
             "OVR": 68,
             "LOGO": "49ers.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 622,
@@ -214,7 +214,7 @@
             "EXP": 8,
             "OVR": 68,
             "LOGO": "Seahawks.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 623,
@@ -226,7 +226,7 @@
             "EXP": 8,
             "OVR": 67,
             "LOGO": "Titans.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 624,
@@ -238,7 +238,7 @@
             "EXP": 4,
             "OVR": 65,
             "LOGO": "Bills.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 625,
@@ -250,7 +250,7 @@
             "EXP": 3,
             "OVR": 65,
             "LOGO": "Broncos.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 626,
@@ -262,7 +262,7 @@
             "EXP": 4,
             "OVR": 65,
             "LOGO": "Raiders.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 627,
@@ -274,7 +274,7 @@
             "EXP": 2,
             "OVR": 65,
             "LOGO": "Jets.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 628,
@@ -286,7 +286,7 @@
             "EXP": 2,
             "OVR": 61,
             "LOGO": "Buccaneers.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 629,
@@ -298,7 +298,7 @@
             "EXP": 3,
             "OVR": 60,
             "LOGO": "Bears.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 630,
@@ -310,7 +310,7 @@
             "EXP": 2,
             "OVR": 59,
             "LOGO": "Patriots.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 631,
@@ -322,7 +322,7 @@
             "EXP": 2,
             "OVR": 57,
             "LOGO": "Giants.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 632,
@@ -334,7 +334,7 @@
             "EXP": 2,
             "OVR": 56,
             "LOGO": "Vikings.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 633,
@@ -346,7 +346,7 @@
             "EXP": 2,
             "OVR": 53,
             "LOGO": "Giants.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         },
         {
             "ID": 634,
@@ -358,7 +358,7 @@
             "EXP": 2,
             "OVR": 51,
             "LOGO": "Cardinals.png",
-            "POSIMG": "K.png"
+            "ICON": "K.png"
         }
     ]
 }

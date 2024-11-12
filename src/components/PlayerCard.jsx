@@ -1,10 +1,7 @@
 import React from 'react'
 
 const PlayerCard = (props) => {
-    const position = {props.POS}
-    const firstName = {props.FIRSTNAME}
-    const lastName = {props.LASTNAME}
-    const overall = {props.OVR}
+    const { POS, FIRSTNAME, LASTNAME, EXP, ARCH, OVR, LOGO, ICON } = props;
 }
 
 export default PlayerCard

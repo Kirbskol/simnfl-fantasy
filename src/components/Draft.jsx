@@ -24,6 +24,9 @@ const Draft = () => {
             const playerData =  await playerResponse.json()
             const iconData = await iconResponse.json()
             const playersArray = playerData[position]
+            if (!playersArray){
+                console.error(`No players found for position: ${position}`)
+            }
             const duplicateCheck = new Map()
             for (let selectedPlayer of selectedPlayers) {
                 duplicateCheck.set(selectedPlayer.id, true)

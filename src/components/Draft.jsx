@@ -26,6 +26,8 @@ const Draft = () => {
             const playersArray = playerData[position]
             if (!playersArray){
                 console.error(`No players found for position: ${position}`)
+                isFetching.current = false
+                return
             }
             const duplicateCheck = new Map()
             for (let selectedPlayer of selectedPlayers) {

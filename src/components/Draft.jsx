@@ -24,7 +24,7 @@ const Draft = () => {
             const playerData =  await playerResponse.json()
             const iconData = await iconResponse.json()
             const duplicateCheck = new Map()
-            for (selectedPlayer of selectedPlayers) {
+            for (let selectedPlayer of selectedPlayers) {
                 duplicateCheck.set(selectedPlayer.id, true)
             }
             const filteredPlayers = playerData.filter(item => !duplicateCheck.has(item.id))

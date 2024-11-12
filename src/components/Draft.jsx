@@ -23,7 +23,14 @@ const Draft = () => {
             const iconResponse = await fetch('positionIcons.json')
             const playerData =  await playerResponse.json()
             const iconData = await iconResponse.json()
-            
+            const duplicateCheck = new Map()
+            for (selectedPlayer of selectedPlayers) {
+                duplicateCheck.set(selectedPlayer.id, true)
+            }
+            const filteredPlayers = playerData.filter(item => !duplicateCheck.has(item.id))
+            const selectablePlayers = filteredPlayers.sort(() => 0.5 - Math.random()).slice(0, 3)
+            setPlayers(selectablePlayers)
+            isFetching.current = false
         }
     }
 

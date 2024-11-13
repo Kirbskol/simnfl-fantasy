@@ -1814,14 +1814,14 @@
         },
         {
             "ID": 330,
-            "TEAM": "Saint",
+            "TEAM": "Saints",
             "FIRSTNAME": "Gregory",
             "LASTNAME": "Donnal",
             "POS": "WR",
             "ARCH": "Route Runner",
             "EXP": 2,
             "OVR": 60,
-            "LOGO": "Saint.png",
+            "LOGO": "Saints.png",
             "ICON": "WR.png"
         },
         {

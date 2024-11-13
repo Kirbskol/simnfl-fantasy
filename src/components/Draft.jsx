@@ -45,6 +45,9 @@ const Draft = () => {
 
     useEffect(() => {
         fetchPlayers()
+        return () => {
+            isFetching.current = false
+        }
     },[position])
 
     const navigate = useNavigate()

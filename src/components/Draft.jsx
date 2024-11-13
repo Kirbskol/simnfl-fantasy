@@ -55,14 +55,16 @@ const Draft = () => {
     const handlePlayerSelect = (player) => {
         setSelectedPlayer(player)
         setSelectedPlayers(prevSelectedPlayers => [...prevSelectedPlayers, player])
+        setPlayers([])
         if (selectedPlayers.length + 1 === 13){
             navigate("/roster")
             return
         }
-        manualPositionIndex.current = manualPositionIndex.current + 1
-        const nextPosition = manualPositionQueue[manualPositionIndex.current]
-        setPosition(nextPosition)
-        setPlayers([])
+        setTimeout(() => {
+            manualPositionIndex.current = manualPositionIndex.current + 1
+            const nextPosition = manualPositionQueue[manualPositionIndex.current]
+            setPosition(nextPosition)
+        }, 1000)
     }
 
     return (

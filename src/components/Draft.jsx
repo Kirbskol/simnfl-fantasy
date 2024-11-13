@@ -51,15 +51,16 @@ const Draft = () => {
     },[position])
 
     const navigate = useNavigate()
+    useEffect(() => {
+        if (selectedPlayers.length === 13){
+            navigate("/roster", { state: { selectedPlayers } })
+        }
+    }, [selectedPlayers, navigate])
 
     const handlePlayerSelect = (player) => {
         setSelectedPlayer(player)
         setSelectedPlayers(prevSelectedPlayers => [...prevSelectedPlayers, player])
         setPlayers([])
-        if (selectedPlayers.length + 1 === 13){
-            navigate("/roster")
-            return
-        }
         setTimeout(() => {
             manualPositionIndex.current = manualPositionIndex.current + 1
             const nextPosition = manualPositionQueue[manualPositionIndex.current]

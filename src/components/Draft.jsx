@@ -69,10 +69,14 @@ const Draft = () => {
     }
 
     return (
-        <div>
+        <div className="flex-col p-8 items-center text-center">
+            <h2 className="text-2xl font-semibold mt-4 mb-2">
+                {selectedPlayer 
+                    ? `Selected: ${selectedPlayer.POS} ${selectedPlayer.FIRSTNAME} ${selectedPlayer.LASTNAME} (${selectedPlayer.TEAM})`
+                    : 'Selected: ---'}
+            </h2>
             <div className="flex justify-center">
                 <div>
-                    <h3 className="text-xl font-bold mb-4">Previous Selected Player: </h3>
                     <div className="flex flex-wrap justify-center">
                         {players.map(player => (
                             <PlayerCard
@@ -93,7 +97,6 @@ const Draft = () => {
                 </div>
             </div>
         </div>
-    )
+    )    
 }
-
 export default Draft

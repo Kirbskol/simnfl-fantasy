@@ -25,7 +25,7 @@ const PlayerCard = (props) => {
             </div>
             <div className="responsive-font-size text-center flex flex-col justify-center min-h-[4.5rem]">
                 <h3 className="text-xl font-semibold text-outline-black sm:text-base md:text-lg lg:text-xl">{POS} {FIRSTNAME} {LASTNAME}</h3>
-                <p className="text-base text-outline-black sm:text-sm md:text-base lg:text-lg">{ARCH} Archetype</p>
+                <p className="text-base text-outline-black sm:text-sm md:text-base lg:text-lg">{ARCH}</p>
             </div>
             <div className="flex mt-4 justify-center items-center space-x-2">
                 <img src={`/public/logos/${LOGO}`} alt={`${FIRSTNAME} ${LASTNAME} Team Logo`} className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24" />

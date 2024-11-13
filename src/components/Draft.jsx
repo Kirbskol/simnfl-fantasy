@@ -49,6 +49,9 @@ const Draft = () => {
         setSelectedPlayer(player)
         setSelectedPlayers(prevSelectedPlayers => [...prevSelectedPlayers, player])
         setPlayers([])
+        if (selectedPlayers.length == 11){
+            
+        }
         manualPositionIndex.current = manualPositionIndex.current + 1
         const nextPosition = manualPositionQueue[manualPositionIndex.current]
         setPosition(nextPosition)
@@ -56,10 +59,9 @@ const Draft = () => {
 
     return (
         <div>
-            <button onClick={fetchPlayers} className="mb-4 bg-blue-500 text-white p-2 rounded">Fetch Players</button>
             <div className="flex justify-center">
                 <div>
-                    <h3 className="text-xl font-bold mb-4">Selected Players:</h3>
+                    <h3 className="text-xl font-bold mb-4">Previous Selected Player: `${selectedPlayer.POS} ${selectedPlayer.FIRSTNAME} ${selectedPlayer.LASTNAME}`</h3>
                     <div className="flex flex-wrap justify-center">
                         {players.map(player => (
                             <PlayerCard

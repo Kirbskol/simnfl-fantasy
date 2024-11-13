@@ -30,7 +30,7 @@ const Draft = () => {
             }
             const duplicateCheck = new Map()
             for (let selectedPlayer of selectedPlayers) {
-                duplicateCheck.set(selectedPlayer.id, true)
+                duplicateCheck.set(selectedPlayer.ID, true)
             }
             const filteredPlayers = playersArray.filter(item => !duplicateCheck.has(item.id))
             const selectablePlayers = filteredPlayers.sort(() => 0.5 - Math.random()).slice(0, 3)
@@ -51,7 +51,6 @@ const Draft = () => {
     const handlePlayerSelect = (player) => {
         setSelectedPlayer(player)
         setSelectedPlayers(prevSelectedPlayers => [...prevSelectedPlayers, player])
-        setPlayers([])
         if (selectedPlayers.length + 1 === 11){
             navigate("/roster")
             return
@@ -59,17 +58,19 @@ const Draft = () => {
         manualPositionIndex.current = manualPositionIndex.current + 1
         const nextPosition = manualPositionQueue[manualPositionIndex.current]
         setPosition(nextPosition)
+        setPlayers([])
     }
 
     return (
         <div>
             <div className="flex justify-center">
                 <div>
-                    <h3 className="text-xl font-bold mb-4">Previous Selected Player: `${selectedPlayer.POS} ${selectedPlayer.FIRSTNAME} ${selectedPlayer.LASTNAME}`</h3>
+                    <h3 className="text-xl font-bold mb-4">Previous Selected Player: </h3>
                     <div className="flex flex-wrap justify-center">
                         {players.map(player => (
                             <PlayerCard
                                 key={player.ID}
+                                handlePlayerSelect={() => handlePlayerSelect(player)}
                                 ID={player.ID}
                                 POS={player.POS}
                                 FIRSTNAME={player.FIRSTNAME}

@@ -18,7 +18,7 @@ const PlayerCard = (props) => {
     ].join(' ')
 
     return (
-        <div className={cardClass} style={{ width: 'calc(33.333% - 10px)', margin: '5px' }} onClick={() => handlePlayerSelect(ID)}>
+        <div className={cardClass} style={{ width: 'calc(33.333% - 10px)', margin: '5px' }} onClick={props.handlePlayerSelect}>
             <div className="text-3xl font-bold mb-2 p-4 w-24 h-24 rounded-full bg-[#0f172a] text-white text-outline-black flex flex-col items-center justify-center">
                 {OVR}
                 <span className="text-xs">OVR</span>

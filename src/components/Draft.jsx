@@ -49,7 +49,9 @@ const Draft = () => {
         setSelectedPlayer(player)
         setSelectedPlayers(prevSelectedPlayers => [...prevSelectedPlayers, player])
         setPlayers([])
-        
+        manualPositionIndex.current = manualPositionIndex + 1
+        const nextPosition = manualPositionQueue[manualPositionIndex.current]
+        setPosition(nextPosition)
     }
 
     return (

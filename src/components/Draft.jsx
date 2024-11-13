@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
+import { Navigate, useNavigate } from "react-router-dom"
 import PlayerCard from './PlayerCard'
 
 const Draft = () => {
@@ -45,12 +46,15 @@ const Draft = () => {
         fetchPlayers()
     },[position])
 
+    const navigate = useNavigate()
+
     const handlePlayerSelect = (player) => {
         setSelectedPlayer(player)
         setSelectedPlayers(prevSelectedPlayers => [...prevSelectedPlayers, player])
         setPlayers([])
-        if (selectedPlayers.length == 11){
-            
+        if (selectedPlayers.length + 1 === 11){
+            navigate("/roster")
+            return
         }
         manualPositionIndex.current = manualPositionIndex.current + 1
         const nextPosition = manualPositionQueue[manualPositionIndex.current]

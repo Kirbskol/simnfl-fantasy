@@ -40,9 +40,17 @@ const Draft = () => {
             isFetching.current = false
         }
     }
+
     useEffect(() => {
         fetchPlayers()
     },[position])
+
+    const handlePlayerSelect = (player) => {
+        setSelectedPlayer(player)
+        setSelectedPlayers(prevSelectedPlayers => [...prevSelectedPlayers, player])
+        setPlayers([])
+        
+    }
 
     return (
         <div>

@@ -10,21 +10,22 @@ const Draft = () => {
     const isFetching = useRef(false)
     const manualPositionIndex = useRef(0)
     const manualPositionQueue = [
-        "qb", "rb", "te", "wr", "wr", "wr", "ol",
-        "ol", "ol", "ol", "ol", "k", "def"
+        "qb", "rb", "te", "wr1", "wr2", "wr3", "ol1",
+        "ol2", "ol3", "ol4", "ol5", "k", "def"
     ]
 
     const fetchPlayers = async () => {
         if (isFetching.current) return
             isFetching.current = true
         try {
-            const playerResponse = await fetch(`/${position}.json`)
+            const basePosition = position.replace(/\d+$/, '')
+            const playerResponse = await fetch(`/${basePosition}.json`)
             const iconResponse = await fetch('/positionIcons.json')
             const playerData =  await playerResponse.json()
             const iconData = await iconResponse.json()
-            const playersArray = playerData[position]
+            const playersArray = playerData[basePosition]
             if (!playersArray){
-                console.error(`No players found for position: ${position}`)
+                console.error(`No players found for position: ${basePosition}`)
                 isFetching.current = false
                 return
             }
@@ -51,7 +52,7 @@ const Draft = () => {
     const handlePlayerSelect = (player) => {
         setSelectedPlayer(player)
         setSelectedPlayers(prevSelectedPlayers => [...prevSelectedPlayers, player])
-        if (selectedPlayers.length + 1 === 11){
+        if (selectedPlayers.length + 1 === 13){
             navigate("/roster")
             return
         }

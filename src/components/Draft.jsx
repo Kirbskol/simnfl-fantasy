@@ -6,8 +6,6 @@ const Draft = () => {
     const [selectedPlayer, setSelectedPlayer] = useState(null)
     const [position, setPosition] = useState('qb')
     const [selectedPlayers, setSelectedPlayers] = useState([])
-    const [wrCount, setWrCount] = useState(0)
-    const [olCount, setOlCount] = useState(0)
     const isFetching = useRef(false)
 
     const manualPositionIndex = useRef(0)
@@ -42,6 +40,9 @@ const Draft = () => {
             console.error("Error when fetching players", error)
             isFetching.current = false
         }
+        useEffect(() => {
+            fetchPlayers()
+        },[position])
     }
     return (
         <div>

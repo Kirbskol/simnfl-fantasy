@@ -43,7 +43,7 @@ const Draft = () => {
     useEffect(() => {
         fetchPlayers()
     },[position])
-}
+
     return (
         <div>
             <button onClick={fetchPlayers} className="mb-4 bg-blue-500 text-white p-2 rounded">Fetch Players</button>

@@ -23,7 +23,7 @@ const RosterPlayerCard = (props) => {
                 <span className="text-xs">OVR</span>
             </div>
             <div className="text-center flex flex-col justify-center min-h-[3rem]">
-                <h3 className="text-base font-semibold text-outline-black sm:text-sm md:text-base lg:text-base">{POS} {FIRSTNAME} {LASTNAME}</h3>
+                <h3 className="text-base font-semibold text-outline-black sm:text-sm md:text-base lg:text-sm">{POS} {FIRSTNAME} {LASTNAME}</h3>
                 <p className="text-sm text-outline-black sm:text-xs md:text-sm lg:text-sm">{ARCH}</p>
             </div>
             <div className="flex mt-2 justify-center items-center space-x-1">

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 import RosterGrid from './ui/RosterGrid.jsx'
+import html2canvas from 'html2canvas'
 
 const Roster = () => {
     const location = useLocation()
@@ -18,9 +19,25 @@ const Roster = () => {
         })
     })
 
+    const getRoster = () => {
+        const element = document.getElementById("myRoster")
+        if (!element) {
+            return
+        }
+        html2canvas(element).then((canvas) => {
+            let image = canvas.toDataURL("image/png")
+            const a = document.createElement("a")
+            a.href = image
+            a.download = `${userName}Roster.png`
+            a.click()
+        }).catch(error=> {
+            console.error("We cannot take image of your roster")
+        })
+    }
+
     return (
-        <div className="p-4 text-right">
-            <button class="border-2 border-gray-300 bg-shiny-dark-blue hover:bg-shiny-gold hover:text-blue-950 text-white text-sm font-bold mt-0 py-2 px-4 rounded-xl">Export</button>
+        <div id="myRoster" className="p-4 bg-slate-800 text-right">
+            <button onClick={getRoster} className="border-2 border-gray-300 bg-shiny-dark-blue hover:bg-shiny-gold hover:text-blue-950 text-white text-sm font-bold mt-0 py-2 px-4 rounded-xl">Export</button>
             <div className="flex items-center -mt-10 justify-center">
                 <div className={`text-2xl font-bold border-2 border-gray-300 mb-2 p-3 w-32 h-26 rounded-xl ${avgOVR >= 80 ? 'bg-shiny-gold text-white' : 'bg-shiny-dark-blue text-white'} text-outline-black flex items-center justify-center`}>
                     <div className="text-2xl font-bold mb-2 p-3 w-16 h-16 text-white text-outline-black flex flex-col items-center justify-center">

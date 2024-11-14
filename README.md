@@ -1,6 +1,6 @@
 # SimNFL Fantasy
 
-This application has been created as part of my final project for Harvards' CS50x course. It is designed for members of the SimFBA community to complete a fantasy draft of SimNFL players and export their drafted rosters to share (and probably brag) with others.
+This application has been created as part of my final project for Harvard's CS50x course. It is designed for members of the SimFBA community to complete a fantasy draft of SimNFL players and export their drafted rosters to share (and probably brag) with others.
 
 # Installation
 

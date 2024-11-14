@@ -24,6 +24,10 @@ const Roster = () => {
         if (!element) {
             return
         }
+        
+        element.style.backgroundImage = "url('/rosterbg.png')"
+        element.style.backgroundSize = "cover"
+
         html2canvas(element).then((canvas) => {
             let image = canvas.toDataURL("image/png")
             const a = document.createElement("a")
@@ -33,6 +37,8 @@ const Roster = () => {
         }).catch(error=> {
             console.error("We cannot take image of your roster")
         })
+        element.style.backgroundImage = ""
+        element.style.backgroundSize = ""
     }
 
     return (

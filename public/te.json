@@ -302,14 +302,14 @@
         },
         {
             "ID": 156,
-            "TEAM": "Texans",
+            "TEAM": "Cardinals",
             "FIRSTNAME": "Will",
             "LASTNAME": "Thomas",
             "POS": "TE",
             "ARCH": "Blocking",
             "EXP": 4,
             "OVR": 69,
-            "LOGO": "Texans.png",
+            "LOGO": "Cardinals.png",
             "ICON": "TE.png"
         },
         {
@@ -410,14 +410,14 @@
         },
         {
             "ID": 165,
-            "TEAM": "Chiefs",
+            "TEAM": "Jets",
             "FIRSTNAME": "Richard",
             "LASTNAME": "Ludwig",
             "POS": "TE",
             "ARCH": "Blocking",
             "EXP": 6,
             "OVR": 65,
-            "LOGO": "Chiefs.png",
+            "LOGO": "Jets.png",
             "ICON": "TE.png"
         },
         {

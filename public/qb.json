@@ -302,14 +302,14 @@
         },
         {
             "ID": 26,
-            "TEAM": "Vikings",
+            "TEAM": "Chiefs",
             "FIRSTNAME": "Chris",
             "LASTNAME": "Frazier",
             "POS": "QB",
             "ARCH": "Balanced",
             "EXP": 4,
             "OVR": 70,
-            "LOGO": "Vikings.png",
+            "LOGO": "Chiefs.png",
             "ICON": "QB.png"
         },
         {

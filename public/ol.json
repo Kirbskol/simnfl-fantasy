@@ -50,14 +50,14 @@
         },
         {
             "ID": 336,
-            "TEAM": "Raiders",
+            "TEAM": "Texans",
             "FIRSTNAME": "Nelson",
             "LASTNAME": "Garcia",
             "POS": "OL",
             "ARCH": "Balanced",
             "EXP": 8,
             "OVR": 90,
-            "LOGO": "Raiders.png",
+            "LOGO": "Texans.png",
             "ICON": "OL.png"
         },
         {
@@ -338,14 +338,14 @@
         },
         {
             "ID": 360,
-            "TEAM": "Titans",
+            "TEAM": "Dolphins",
             "FIRSTNAME": "Joseph",
             "LASTNAME": "Kolodny",
             "POS": "OL",
             "ARCH": "Pass Blocking",
             "EXP": 7,
             "OVR": 82,
-            "LOGO": "Titans.png",
+            "LOGO": "Dolphins.png",
             "ICON": "OL.png"
         },
         {
@@ -1094,14 +1094,14 @@
         },
         {
             "ID": 423,
-            "TEAM": "Chiefs",
+            "TEAM": "Jets",
             "FIRSTNAME": "Marty",
             "LASTNAME": "Ferguson",
             "POS": "OL",
             "ARCH": "Run Blocking",
             "EXP": 6,
             "OVR": 71,
-            "LOGO": "Chiefs.png",
+            "LOGO": "Jets.png",
             "ICON": "OL.png"
         },
         {
@@ -1526,14 +1526,14 @@
         },
         {
             "ID": 459,
-            "TEAM": "Panthers",
+            "TEAM": "49ers",
             "FIRSTNAME": "Franklin",
             "LASTNAME": "Mitchell",
             "POS": "OL",
             "ARCH": "Pass Blocking",
             "EXP": 5,
             "OVR": 68,
-            "LOGO": "Panthers.png",
+            "LOGO": "49ers.png",
             "ICON": "OL.png"
         },
         {
@@ -1946,14 +1946,14 @@
         },
         {
             "ID": 494,
-            "TEAM": "Texans",
+            "TEAM": "Bengals",
             "FIRSTNAME": "Alec",
             "LASTNAME": "Cozens",
             "POS": "OL",
             "ARCH": "Run Blocking",
             "EXP": 4,
             "OVR": 66,
-            "LOGO": "Texans.png",
+            "LOGO": "Bengals.png",
             "ICON": "OL.png"
         },
         {

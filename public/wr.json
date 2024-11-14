@@ -170,14 +170,14 @@
         },
         {
             "ID": 193,
-            "TEAM": "Raiders",
+            "TEAM": "Chargers",
             "FIRSTNAME": "Charles",
             "LASTNAME": "Brown",
             "POS": "WR",
             "ARCH": "Possession",
             "EXP": 11,
             "OVR": 80,
-            "LOGO": "Raiders.png",
+            "LOGO": "Chargers.png",
             "ICON": "WR.png"
         },
         {
@@ -278,14 +278,14 @@
         },
         {
             "ID": 202,
-            "TEAM": "Packers",
+            "TEAM": "Texans",
             "FIRSTNAME": "James",
             "LASTNAME": "Berendes",
             "POS": "WR",
             "ARCH": "Possession",
             "EXP": 10,
             "OVR": 75,
-            "LOGO": "Packers.png",
+            "LOGO": "Texans.png",
             "ICON": "WR.png"
         },
         {
@@ -314,14 +314,14 @@
         },
         {
             "ID": 205,
-            "TEAM": "Chargers",
+            "TEAM": "Texans",
             "FIRSTNAME": "Richard",
             "LASTNAME": "Roshell",
             "POS": "WR",
             "ARCH": "Red Zone Threat",
             "EXP": 11,
             "OVR": 74,
-            "LOGO": "Chargers.png",
+            "LOGO": "Texans.png",
             "ICON": "WR.png"
         },
         {
@@ -338,14 +338,14 @@
         },
         {
             "ID": 207,
-            "TEAM": "Vikings",
+            "TEAM": "Steelers",
             "FIRSTNAME": "Alex",
             "LASTNAME": "Williams III",
             "POS": "WR",
             "ARCH": "Possession",
             "EXP": 4,
             "OVR": 74,
-            "LOGO": "Vikings.png",
+            "LOGO": "Steelers.png",
             "ICON": "WR.png"
         },
         {
@@ -362,14 +362,14 @@
         },
         {
             "ID": 209,
-            "TEAM": "Jets",
+            "TEAM": "Titans",
             "FIRSTNAME": "Anthony",
             "LASTNAME": "Stovall",
             "POS": "WR",
             "ARCH": "Red Zone Threat",
             "EXP": 5,
             "OVR": 74,
-            "LOGO": "Jets.png",
+            "LOGO": "Titans.png",
             "ICON": "WR.png"
         },
         {
@@ -434,14 +434,14 @@
         },
         {
             "ID": 215,
-            "TEAM": "Browns",
+            "TEAM": "Chiefs",
             "FIRSTNAME": "Michael",
             "LASTNAME": "Walker",
             "POS": "WR",
             "ARCH": "Speed",
             "EXP": 5,
             "OVR": 71,
-            "LOGO": "Browns.png",
+            "LOGO": "Chiefs.png",
             "ICON": "WR.png"
         },
         {
@@ -518,26 +518,26 @@
         },
         {
             "ID": 222,
-            "TEAM": "Buccaneers",
+            "TEAM": "Texans",
             "FIRSTNAME": "Tracey",
             "LASTNAME": "Borders",
             "POS": "WR",
             "ARCH": "Possession",
             "EXP": 11,
             "OVR": 71,
-            "LOGO": "Buccaneers.png",
+            "LOGO": "Texans.png",
             "ICON": "WR.png"
         },
         {
             "ID": 223,
-            "TEAM": "Titans",
+            "TEAM": "Browns",
             "FIRSTNAME": "John",
             "LASTNAME": "Mori",
             "POS": "WR",
             "ARCH": "Route Runner",
             "EXP": 6,
             "OVR": 71,
-            "LOGO": "Titans.png",
+            "LOGO": "Browns.png",
             "ICON": "WR.png"
         },
         {
@@ -590,14 +590,14 @@
         },
         {
             "ID": 228,
-            "TEAM": "Jets",
+            "TEAM": "Chargers",
             "FIRSTNAME": "Charles",
             "LASTNAME": "Thomas",
             "POS": "WR",
             "ARCH": "Possession",
             "EXP": 6,
             "OVR": 70,
-            "LOGO": "Jets.png",
+            "LOGO": "Chargers.png",
             "ICON": "WR.png"
         },
         {
@@ -866,14 +866,14 @@
         },
         {
             "ID": 251,
-            "TEAM": "Cardinals",
+            "TEAM": "Broncos",
             "FIRSTNAME": "Franco",
             "LASTNAME": "Milton",
             "POS": "WR",
             "ARCH": "Route Runner",
             "EXP": 13,
             "OVR": 67,
-            "LOGO": "Cardinals.png",
+            "LOGO": "Broncos.png",
             "ICON": "WR.png"
         },
         {
@@ -1154,14 +1154,14 @@
         },
         {
             "ID": 275,
-            "TEAM": "Raiders",
+            "TEAM": "Titans",
             "FIRSTNAME": "Josh",
             "LASTNAME": "Aquino",
             "POS": "WR",
             "ARCH": "Possession",
             "EXP": 4,
             "OVR": 65,
-            "LOGO": "Raiders.png",
+            "LOGO": "Titans.png",
             "ICON": "WR.png"
         },
         {

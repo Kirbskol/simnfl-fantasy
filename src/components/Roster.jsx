@@ -25,26 +25,34 @@ const Roster = () => {
             return
         }
         
-        element.style.backgroundImage = "url('/rosterbg.png')"
+        element.style.backgroundImage = "url('/rosterBg.png')"
         element.style.backgroundSize = "cover"
+        element.style.border = "10px solid #afb9c5"
+        const logoElement = document.getElementById("exportLogo")
+        if (logoElement) logoElement.style.display = "block"
 
         html2canvas(element).then((canvas) => {
             let image = canvas.toDataURL("image/png")
             const a = document.createElement("a")
             a.href = image
-            a.download = `${userName}Roster.png`
+            a.download = `${userName}sRoster.png`
             a.click()
         }).catch(error=> {
             console.error("We cannot take image of your roster")
         })
         element.style.backgroundImage = ""
         element.style.backgroundSize = ""
+        element.style.border = ""
+        if (logoElement) logoElement.style.display = "none"
     }
 
     return (
-        <div id="myRoster" className="p-4 bg-slate-800 text-right">
-            <button onClick={getRoster} className="border-2 border-gray-300 bg-shiny-dark-blue hover:bg-shiny-gold hover:text-blue-950 text-white text-sm font-bold mt-0 py-2 px-4 rounded-xl">Export</button>
-            <div className="flex items-center -mt-10 justify-center">
+        <div id="myRoster" className="p-4 bg-slate-800 text-center">
+            <div className="flex items-center justify-between">
+                <div></div>
+                <div id="exportLogo" style={{ display: "none", position: "absolute"}}>
+                    <img src="/rosterLogo.png" alt="SimFBA logo" style={{ width: "180px" }} />
+                </div>
                 <div className={`text-2xl font-bold border-2 border-gray-300 mb-2 p-3 w-32 h-26 rounded-xl ${avgOVR >= 80 ? 'bg-shiny-gold text-white' : 'bg-shiny-dark-blue text-white'} text-outline-black flex items-center justify-center`}>
                     <div className="text-2xl font-bold mb-2 p-3 w-16 h-16 text-white text-outline-black flex flex-col items-center justify-center">
                         HC
@@ -55,6 +63,7 @@ const Roster = () => {
                         <span className="text-xs">OVR</span>
                     </div>
                 </div>
+                <button onClick={getRoster} className="border-2 border-gray-300 bg-shiny-dark-blue hover:bg-shiny-gold hover:text-blue-950 text-white text-sm self-start font-bold mt-0 py-2 px-4 rounded-xl">Export</button>
             </div>
             <RosterGrid orderedPlayers={orderedPlayers} />
         </div>

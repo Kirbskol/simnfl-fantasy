@@ -27,7 +27,7 @@ const RosterPlayerCard = (props) => {
                 <p className="text-sm text-outline-black sm:text-xs md:text-sm lg:text-sm">{ARCH}</p>
             </div>
             <div className="flex mt-2 justify-center items-center space-x-1">
-                {LOGO && <img src={`/public/logos/${LOGO}`} alt={`${FIRSTNAME} ${LASTNAME} Team Logo`} className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14" />}
+                {LOGO && <img src={`/logos/${LOGO}`} alt={`${FIRSTNAME} ${LASTNAME} Team Logo`} className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14" />}
                 {ICON && <img src={ICON} alt={`${POS} Icon`} className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14" />}
             </div>
         </div>

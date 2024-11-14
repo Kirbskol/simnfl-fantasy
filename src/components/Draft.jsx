@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { Navigate, useNavigate } from "react-router-dom"
 import PlayerCard from './PlayerCard'
 
-const Draft = () => {
+const Draft = ({ userName }) => {
     const [players, setPlayers] = useState([])
     const [selectedPlayer, setSelectedPlayer] = useState(null)
     const [position, setPosition] = useState('qb')
@@ -53,9 +53,9 @@ const Draft = () => {
     const navigate = useNavigate()
     useEffect(() => {
         if (selectedPlayers.length === 13){
-            navigate("/roster", { state: { selectedPlayers } })
+            navigate("/roster", { state: { selectedPlayers, userName } })
         }
-    }, [selectedPlayers, navigate])
+    }, [selectedPlayers, navigate, userName])
 
     const handlePlayerSelect = (player) => {
         setSelectedPlayer(player)

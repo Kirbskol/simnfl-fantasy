@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import PlayerCard from './PlayerCard'
+import RosterPlayerCard from './PlayerCard'
 
 const Roster = () => {
-
+    const location = useLocation()
+    const { selectedPlayers, userName } = location.state || { selectedPlayers: [], userName: '' }
 
     return(
         <div className="grid grid-cols-8 grid-rows-3 gap-3">

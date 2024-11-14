@@ -14,7 +14,8 @@ const PlayerCard = (props) => {
         'flex-col', 
         'items-center', 
         OVR >= 80 ? 'bg-shiny-gold text-white' : 'bg-shiny-dark-blue text-white', 
-        'flex-grow'
+        'flex-grow',
+        'cursor-pointer'
     ].join(' ')
 
     return (

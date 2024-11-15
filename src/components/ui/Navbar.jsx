@@ -5,6 +5,7 @@ import logo from '../../assets/logo.png'
 
 const navigation = [
   { name: 'Fantasy Draft', href: '/', current: true },
+  { name: 'Leaderboard', href: '/leaderboard', current: true },
   { name: 'Interface', href: 'https://simfba-interface.azurewebsites.net/#/', current: false },
   { name: 'Forum', href: 'https://www.simfba.com/', current: false },
   { name: 'Discord', href: 'https://discord.gg/ZhM9KPTjST', current: false },

@@ -19,8 +19,8 @@ export default async (req, res) => {
                 await sql.begin(async transaction => {
                     for (const entry of leaderboardData) {
                         await transaction.query(
-                            'INSERT INTO leaderboard (username, ovr, date) VALUES ($1, $2, $3) ON CONFLICT (username) DO UPDATE SET ovr = $2, date = $3',
-                            [entry.username, entry.ovr, new Date(entry.date)]
+                            'INSERT INTO leaderboard (username, ovr) VALUES ($1, $2) ON CONFLICT (username) DO UPDATE SET ovr = $2',
+                            [entry.username, entry.ovr]
                         )
                     }
                 })
@@ -30,7 +30,7 @@ export default async (req, res) => {
                 console.error('Error updating leaderboard data:', error)
                 res.status(400).json({ error: 'Invalid JSON data' })
             }
-        });
+        })
     } else {
         res.status(405).json({ error: 'Method Not Allowed' })
     }

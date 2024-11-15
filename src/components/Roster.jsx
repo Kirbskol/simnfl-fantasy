@@ -22,7 +22,7 @@ const Roster = () => {
 
     const updateLeaderboard = async () => {
         try {
-            const response = await fetch('/api/getLeaderboard');
+            const response = await fetch('/api/updateLeaderboard');
             let leaderboard = await response.json()
             leaderboard.push({ Username: userName, OVR: parseFloat(rawAvgOVR) })
             leaderboard.sort((a, b) => b.OVR - a.OVR)

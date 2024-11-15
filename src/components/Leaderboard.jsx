@@ -6,7 +6,7 @@ const Leaderboard = () => {
     useEffect(() => {
         const fetchLeaderboard = async () => {
             try {
-                const response = await fetch('/leaderboard.json')
+                const response = await fetch('/api/getLeaderboard');
                 const data = await response.json()
                 setLeaderboard(data)
             } catch (error) {

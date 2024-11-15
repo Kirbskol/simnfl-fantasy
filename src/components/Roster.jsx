@@ -26,6 +26,16 @@ const Roster = () => {
             let leaderboard = await response.json()
             leaderboard.push({ Username: userName, OVR: parseFloat(rawAvgOVR) })
             leaderboard.sort((a, b) => b.OVR - a.OVR)
+            const top10 = leaderboard.slice(0, 10)
+            await fetch('/leaderboard.json', {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(top10)
+            })
+        } catch(error) {
+            console.error("Error updating leaderboard:", error)
         }
     }
 
@@ -47,6 +57,7 @@ const Roster = () => {
             a.href = image
             a.download = `${userName}sRoster.png`
             a.click()
+            updateLeaderboard()
         }).catch(error=> {
             console.error("We cannot take image of your roster")
         })

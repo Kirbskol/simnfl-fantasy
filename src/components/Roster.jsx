@@ -27,7 +27,7 @@ const Roster = () => {
             leaderboard.push({ Username: userName, OVR: parseFloat(rawAvgOVR) })
             leaderboard.sort((a, b) => b.OVR - a.OVR)
             const top10 = leaderboard.slice(0, 10)
-            await fetch('/leaderboard.json', {
+            await fetch('/api/updateLeaderboard', {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'
@@ -37,7 +37,7 @@ const Roster = () => {
         } catch(error) {
             console.error("Error updating leaderboard:", error)
         }
-    }
+    }    
 
     const getRoster = () => {
         const element = document.getElementById("myRoster")

@@ -18,14 +18,14 @@ const Leaderboard = () => {
     }, [])
 
     return (
-        <div className="p-4">
+        <div className="p-4 flex flex-col items-center justify-center">
             <h1 className="text-2xl font-bold mb-4">Leaderboard</h1>
-            <table className="min-w-full bg-white">
+            <table className="min-w-min self-center text-center">
                 <thead>
                     <tr>
                         <th className="py-2 px-4 border-b-2 border-gray-300">Rank</th>
                         <th className="py-2 px-4 border-b-2 border-gray-300">Username</th>
-                        <th className="py-2 px-4 border-b-2 border-gray-300">Avg OVR</th>
+                        <th className="py-2 px-4 border-b-2 border-gray-300">OVR</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -33,7 +33,7 @@ const Leaderboard = () => {
                         <tr key={index}>
                             <td className="py-2 px-4 border-b">{index + 1}</td>
                             <td className="py-2 px-4 border-b">{team.Username}</td>
-                            <td className="py-2 px-4 border-b">{team.OVR.toFixed(1)}</td>
+                            <td className="py-2 px-4 border-b">{team.OVR.toFixed(2)}</td>
                         </tr>
                     ))}
                 </tbody>

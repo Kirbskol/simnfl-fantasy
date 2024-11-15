@@ -10,7 +10,7 @@ const Roster = () => {
     const positionsOrder = ["OL", "TE", "DEF", "WR", "QB", "RB", "FB", "K"]
     const totalOVR = selectedPlayers.reduce((sum, player) => sum + player.OVR, 0)
     const avgOVR = Math.round(totalOVR / selectedPlayers.length)
-    const rawAvgOVR = (totalOVR / selectedPlayers.length).toFixed(1)
+    const rawAvgOVR = (totalOVR / selectedPlayers.length).toFixed(2)
 
     positionsOrder.forEach(pos => {
         selectedPlayers.forEach(player => {
@@ -24,6 +24,8 @@ const Roster = () => {
         try {
             const response = await fetch('/leaderboard.json')
             let leaderboard = await response.json()
+            leaderboard.push({ Username: userName, OVR: parseFloat(rawAvgOVR) })
+            leaderboard.sort((a, b) => b.OVR - a.OVR)
         }
     }
 
